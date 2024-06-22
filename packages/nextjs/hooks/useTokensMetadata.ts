@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useScaffoldContractRead } from "./scaffold-eth";
+import { useScaffoldContractRead } from "./";
 import { ipfsToHttps } from "~~/utils/ipfs";
 import parseMetadata, { NFTMetadata } from "~~/utils/parseNFTMetadata";
 
@@ -15,11 +15,8 @@ const useTokensMetadata = (tokens?: number[]): NFTMetadata[] | undefined => {
 
   useEffect(() => {
     if (uriRead.isSuccess && uriRead.data !== undefined && tokens !== undefined) {
-      console.log("url", uriRead.data);
       const url = uriRead.data as string;
       const urls = tokens.map(id => ipfsToHttps(url.replace("0", id.toString())));
-
-      console.log("urls", urls);
 
       Promise.all(
         tokens.map(async (id, index) => {

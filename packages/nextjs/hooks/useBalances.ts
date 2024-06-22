@@ -1,10 +1,6 @@
 import { useMemo } from "react";
-import { useScaffoldContractRead } from "./scaffold-eth";
-import useTokensMetadata from "./useTokensMetadata";
+import { useScaffoldContractRead } from "./";
 import { useAccount } from "wagmi";
-import { NFTMetadata } from "~~/utils/parseNFTMetadata";
-
-type NFTMetadataWithId = NFTMetadata & { id: number };
 
 const TOTAL_TOKENS = 151;
 const TOKEN_IDS = Array.from({ length: TOTAL_TOKENS }, (_, index) => index);
@@ -29,22 +25,9 @@ const useBalances = () => {
     [balances.data],
   );
 
-  const metadatas = useTokensMetadata(ownedTokens?.map(([tokenId]) => tokenId));
-
-  const tokens = useMemo<undefined | NFTMetadataWithId[]>(
-    () =>
-      metadatas &&
-      balances.data &&
-      balances.data.map((tokenId: bigint) => ({
-        ...metadatas[parseInt(tokenId.toString())],
-        id: parseInt(tokenId.toString()),
-      })),
-    [balances.data, metadatas],
-  );
-
   return {
     ...balances,
-    data: tokens,
+    data: ownedTokens,
   };
 };
 

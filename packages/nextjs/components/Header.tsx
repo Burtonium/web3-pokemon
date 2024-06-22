@@ -3,8 +3,8 @@
 import React, { useCallback, useRef, useState } from "react";
 import Link from "next/link";
 import { Bars3Icon } from "@heroicons/react/24/outline";
-import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
-import { useOutsideClick } from "~~/hooks/scaffold-eth";
+import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components";
+import { useOutsideClick } from "~~/hooks";
 
 /**
  * Site header

@@ -2,12 +2,24 @@
 import { z } from "zod";
 
 // Define a schema for the "Color" trait
-const colorTraitSchema = z.object({
-  trait_type: z.literal("Color"),
+const typeTraitSchema = z.object({
+  trait_type: z.literal("Type"),
   value: z.string(),
 });
 
-export type ColorTraitSchema = z.infer<typeof colorTraitSchema>;
+const weightTraitSchema = z.object({
+  trait_type: z.literal("Weight"),
+  value: z.number(),
+});
+
+const heightTraitSchema = z.object({
+  trait_type: z.literal("Height"),
+  value: z.number(),
+});
+
+export type TypeTraitSchema = z.infer<typeof typeTraitSchema>;
+export type WeightTraitSchema = z.infer<typeof weightTraitSchema>;
+export type HeightTraitSchema = z.infer<typeof heightTraitSchema>;
 
 // Define a schema for the NFT metadata
 const nftMetadataSchema = z
@@ -16,24 +28,44 @@ const nftMetadataSchema = z
     name: z.string(),
     description: z.string(),
     image: z.string(),
-    attributes: z.array(z.object({ trait_type: z.string(), value: z.string() })),
+    attributes: z.array(z.object({ trait_type: z.string(), value: z.string().or(z.number()) })),
   })
   .superRefine((data, ctx) => {
-    const colorTrait = data.attributes.find((attr): attr is ColorTraitSchema => attr.trait_type === "Color");
+    const typeTraits = data.attributes.find((attr): attr is TypeTraitSchema => attr.trait_type === "Type");
 
-    if (!colorTrait) {
+    if (!typeTraits) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
-        message: `"Color" trait is required.`,
+        message: `"Type" trait is required.`,
+      });
+    }
+
+    const weightTrait = data.attributes.find((attr): attr is WeightTraitSchema => attr.trait_type === "Weight");
+
+    if (!weightTrait) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: `"Weight" trait is required.`,
+      });
+    }
+
+    const heightTrait = data.attributes.find((attr): attr is HeightTraitSchema => attr.trait_type === "Height");
+
+    if (!heightTrait) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: `"Height" trait is required.`,
       });
     }
   })
   .transform(data => {
-    const colorTrait = data.attributes.find((attr): attr is ColorTraitSchema => attr.trait_type === "Color");
+    const typeTraits = data.attributes.filter((attr): attr is TypeTraitSchema => attr.trait_type === "Type");
 
     return {
       ...data,
-      color: colorTrait!.value,
+      types: typeTraits.map(({ value }) => value),
+      weight: data.attributes.find((attr): attr is WeightTraitSchema => attr.trait_type === "Weight")!.value,
+      height: data.attributes.find((attr): attr is HeightTraitSchema => attr.trait_type === "Height")!.value,
       httpsImage: data.image.replace("ipfs://", "https://ipfs.io/ipfs/"),
     };
   });
@@ -41,7 +73,6 @@ const nftMetadataSchema = z
 export type NFTMetadata = z.infer<typeof nftMetadataSchema>;
 
 const parseMetadata = (json: unknown) => {
-  console.log(json);
   return nftMetadataSchema.parse(json);
 };
 
