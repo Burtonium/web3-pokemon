@@ -1,5 +1,6 @@
 import "@rainbow-me/rainbowkit/styles.css";
 import { Metadata } from "next";
+import "react-tooltip/dist/react-tooltip.css";
 import { AppWithProviders } from "~~/components/AppWithProviders";
 import "~~/styles/globals.css";
 
