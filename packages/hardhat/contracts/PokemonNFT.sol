@@ -24,7 +24,7 @@ contract PokemonNFT is VRFConsumerBaseV2Plus, ERC1155, Multicall {
     event PokemonMinted(address indexed minter, uint256 indexed requestId, uint256 indexed pokemonId);
 
     constructor(uint256 subscriptionId) ERC1155("") VRFConsumerBaseV2Plus(vrfCoordinator) {
-        baseURI = "ipfs://QmTw8zK2fehxRyCoifcKDgoZsF6H8zTKz4bARKfR3cfLAQ";
+        baseURI = "ipfs://QmTw8zK2fehxRyCoifcKDgoZsF6H8zTKz4bARKfR3cfLAQ/";
         s_subscriptionId = subscriptionId;
     }
 
