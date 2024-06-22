@@ -1,6 +1,7 @@
 "use client";
 
-import { FC, useEffect, useMemo, useState } from "react";
+import React, { FC, useEffect, useMemo, useState } from "react";
+import { Tooltip } from "react-tooltip";
 import { useAccount } from "wagmi";
 import { useScaffoldContractWrite } from "~~/hooks";
 import useBalances from "~~/hooks/useBalances";
@@ -66,15 +67,20 @@ const PokemonNFT: FC = () => {
                 const nft = metadatas?.find(meta => meta.id === balance[0]);
                 return (
                   nft && (
-                    <div className="bg-slate-200 rounded-lg p-5" key={nft.id}>
-                      <div className="flex items-center gap-3">
-                        <img alt="Resource image" className="bg-slate-100 rounded-lg" src={nft.httpsImage} />
-                        <div className="px-4">
-                          <h2 className="text-3xl font-bold capitalize">{nft.name}</h2>
-                          <h3 className="text-2xl font-bold">Owned: {balance[1]}</h3>
+                    <React.Fragment key={nft.id}>
+                      <div data-tooltip-id={`nft-${nft.id}`} className="bg-slate-200 rounded-lg p-5 relative">
+                        <div className="flex items-center gap-3">
+                          <img alt="Resource image" className="bg-slate-100 rounded-lg" src={nft.httpsImage} />
+                          <div className="px-4">
+                            <h2 className="text-3xl font-bold capitalize">{nft.name}</h2>
+                            <h3 className="text-2xl font-bold">Owned: {balance[1]}</h3>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                      <Tooltip id={`nft-${nft.id}`} place="top">
+                        {nft.description}
+                      </Tooltip>
+                    </React.Fragment>
                   )
                 );
               })}
