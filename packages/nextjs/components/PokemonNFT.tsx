@@ -77,7 +77,7 @@ const PokemonNFT: FC = () => {
                           </div>
                         </div>
                       </div>
-                      <Tooltip id={`nft-${nft.id}`} place="top">
+                      <Tooltip className="z-10" id={`nft-${nft.id}`} place="top">
                         {nft.description}
                       </Tooltip>
                     </React.Fragment>
