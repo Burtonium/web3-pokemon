@@ -1,0 +1,44 @@
+{
+  "name": "web3-pokemon",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/hardhat",
+      "packages/nextjs"
+    ]
+  },
+  "scripts": {
+    "account": "yarn workspace @web3-pokemon/hardhat account",
+    "chain": "yarn workspace @web3-pokemon/hardhat chain",
+    "fork": "yarn workspace @web3-pokemon/hardhat fork",
+    "deploy": "yarn workspace @web3-pokemon/hardhat deploy",
+    "verify": "yarn workspace @web3-pokemon/hardhat verify",
+    "hardhat-verify": "yarn workspace @web3-pokemon/hardhat hardhat-verify",
+    "compile": "yarn workspace @web3-pokemon/hardhat compile",
+    "generate": "yarn workspace @web3-pokemon/hardhat generate",
+    "flatten": "yarn workspace @web3-pokemon/hardhat flatten",
+    "hardhat:lint": "yarn workspace @web3-pokemon/hardhat lint",
+    "hardhat:lint-staged": "yarn workspace @web3-pokemon/hardhat lint-staged",
+    "hardhat:format": "yarn workspace @web3-pokemon/hardhat format",
+    "hardhat:test": "yarn workspace @web3-pokemon/hardhat test",
+    "test": "yarn hardhat:test",
+    "format": "yarn next:format && yarn hardhat:format",
+    "start": "yarn workspace @web3-pokemon/nextjs dev",
+    "next:lint": "yarn workspace @web3-pokemon/nextjs lint",
+    "next:format": "yarn workspace @web3-pokemon/nextjs format",
+    "next:check-types": "yarn workspace @web3-pokemon/nextjs check-types",
+    "next:build": "yarn workspace @web3-pokemon/nextjs build",
+    "postinstall": "husky install",
+    "precommit": "lint-staged",
+    "vercel": "yarn workspace @web3-pokemon/nextjs vercel",
+    "vercel:yolo": "yarn workspace @web3-pokemon/nextjs vercel:yolo"
+  },
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "next": "^14.0.4",
+    "vercel": "^32.4.1"
+  }
+}

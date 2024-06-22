@@ -1,0 +1,23 @@
+{
+  "name": "exeggutor",
+  "description": "Exeggutor (Japanese: ナッシー Nassy) is a dual-type Grass/Psychic Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "grass"
+    },
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1200
+    },
+    {
+      "trait_type": "Height",
+      "value": 20
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "marowak",
+  "description": "Marowak (Japanese: ガラガラ Garagara) is a Ground-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 450
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

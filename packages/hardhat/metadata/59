@@ -1,0 +1,19 @@
+{
+  "name": "arcanine",
+  "description": "Arcanine (Japanese: ウインディ Windie) is a Fire-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1550
+    },
+    {
+      "trait_type": "Height",
+      "value": 19
+    }
+  ]
+}

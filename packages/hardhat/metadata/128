@@ -1,0 +1,19 @@
+{
+  "name": "tauros",
+  "description": "Tauros (Japanese: ケンタロス Kentauros) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 884
+    },
+    {
+      "trait_type": "Height",
+      "value": 14
+    }
+  ]
+}

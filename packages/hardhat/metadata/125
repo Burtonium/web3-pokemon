@@ -1,0 +1,19 @@
+{
+  "name": "electabuzz",
+  "description": "Electabuzz (Japanese: エレブー Eleboo) is an Electric-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 300
+    },
+    {
+      "trait_type": "Height",
+      "value": 11
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "metapod",
+  "description": "Metapod (Japanese: トランセル Transel) is a Bug-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "bug"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 99
+    },
+    {
+      "trait_type": "Height",
+      "value": 7
+    }
+  ]
+}

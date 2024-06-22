@@ -1,0 +1,23 @@
+{
+  "name": "zubat",
+  "description": "Zubat (Japanese: ズバット Zubat) is a dual-type Poison/Flying Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 75
+    },
+    {
+      "trait_type": "Height",
+      "value": 8
+    }
+  ]
+}

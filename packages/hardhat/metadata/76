@@ -1,0 +1,23 @@
+{
+  "name": "golem",
+  "description": "Golem (Japanese: ゴローニャ Golonya) is a dual-type Rock/Ground Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 3000
+    },
+    {
+      "trait_type": "Height",
+      "value": 14
+    }
+  ]
+}

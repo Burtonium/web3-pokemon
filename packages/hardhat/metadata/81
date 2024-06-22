@@ -1,0 +1,23 @@
+{
+  "name": "magnemite",
+  "description": "Magnemite (Japanese: コイル Coil) is a dual-type Electric/Steel Pokémon introduced in Generation I. Prior to Generation II, it was a pure Electric-type Pokémon.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Type",
+      "value": "steel"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 60
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "primeape",
+  "description": "Primeape (Japanese: オコリザル Okorizaru) is a Fighting-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 320
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

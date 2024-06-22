@@ -1,0 +1,23 @@
+{
+  "name": "exeggcute",
+  "description": "Exeggcute (Japanese: タマタマ Tamatama) is a dual-type Grass/Psychic Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "grass"
+    },
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 25
+    },
+    {
+      "trait_type": "Height",
+      "value": 4
+    }
+  ]
+}

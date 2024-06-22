@@ -1,0 +1,19 @@
+{
+  "name": "nidorino",
+  "description": "Nidorino (Japanese: ニドリーノ  Nidorino) is a Poison-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 195
+    },
+    {
+      "trait_type": "Height",
+      "value": 9
+    }
+  ]
+}

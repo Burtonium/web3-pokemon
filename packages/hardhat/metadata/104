@@ -1,0 +1,19 @@
+{
+  "name": "cubone",
+  "description": "Cubone (Japanese: カラカラ Karakara) is a Ground-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 65
+    },
+    {
+      "trait_type": "Height",
+      "value": 4
+    }
+  ]
+}

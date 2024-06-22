@@ -1,0 +1,19 @@
+{
+  "name": "sandslash",
+  "description": "Sandslash (Japanese: サンドパン Sandpan) is a Ground-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 295
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

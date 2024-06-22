@@ -1,0 +1,23 @@
+{
+  "name": "butterfree",
+  "description": "Butterfree (Japanese: バタフリー Butterfree) is a dual-type Bug/Flying Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "bug"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 320
+    },
+    {
+      "trait_type": "Height",
+      "value": 11
+    }
+  ]
+}

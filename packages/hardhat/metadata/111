@@ -1,0 +1,23 @@
+{
+  "name": "rhyhorn",
+  "description": "Rhyhorn (Japanese: サイホーン Sihorn) is a dual-type Ground/Rock Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1150
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

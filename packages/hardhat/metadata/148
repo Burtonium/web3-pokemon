@@ -1,0 +1,19 @@
+{
+  "name": "dragonair",
+  "description": "Dragonair (Japanese: ハクリュー Hakuryu) is a Dragon-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "dragon"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 165
+    },
+    {
+      "trait_type": "Height",
+      "value": 40
+    }
+  ]
+}

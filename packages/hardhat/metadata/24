@@ -1,0 +1,19 @@
+{
+  "name": "arbok",
+  "description": "Arbok (Japanese: アーボック Arbok) is a Poison-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 650
+    },
+    {
+      "trait_type": "Height",
+      "value": 35
+    }
+  ]
+}

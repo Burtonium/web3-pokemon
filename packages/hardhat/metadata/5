@@ -1,0 +1,19 @@
+{
+  "name": "charmeleon",
+  "description": "Charmeleon (Japanese: リザード Lizardo) is a Fire-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 190
+    },
+    {
+      "trait_type": "Height",
+      "value": 11
+    }
+  ]
+}

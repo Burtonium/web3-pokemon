@@ -1,0 +1,23 @@
+{
+  "name": "jigglypuff",
+  "description": "Jigglypuff (Japanese: プリン Purin) is a dual-type Normal/Fairy Pokémon introduced in Generation I. Prior to Generation VI, it was a pure Normal-type Pokémon.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "fairy"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 55
+    },
+    {
+      "trait_type": "Height",
+      "value": 5
+    }
+  ]
+}

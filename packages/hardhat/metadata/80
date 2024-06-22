@@ -1,0 +1,23 @@
+{
+  "name": "slowbro",
+  "description": "Slowbro (Japanese: ヤドラン Yadoran) is a dual-type Water/Psychic Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 785
+    },
+    {
+      "trait_type": "Height",
+      "value": 16
+    }
+  ]
+}

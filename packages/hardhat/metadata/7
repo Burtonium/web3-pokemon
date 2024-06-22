@@ -1,0 +1,19 @@
+{
+  "name": "squirtle",
+  "description": "Squirtle (Japanese: ゼニガメ Zenigame) is a Water-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 90
+    },
+    {
+      "trait_type": "Height",
+      "value": 5
+    }
+  ]
+}

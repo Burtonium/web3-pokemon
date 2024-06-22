@@ -1,0 +1,19 @@
+{
+  "name": "krabby",
+  "description": "Krabby (Japanese: クラブ Crab) is a Water-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 65
+    },
+    {
+      "trait_type": "Height",
+      "value": 4
+    }
+  ]
+}

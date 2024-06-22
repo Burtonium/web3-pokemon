@@ -1,0 +1,23 @@
+{
+  "name": "cloyster",
+  "description": "Cloyster (Japanese: パルシェン Parshen) is a dual-type Water/Ice Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ice"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1325
+    },
+    {
+      "trait_type": "Height",
+      "value": 15
+    }
+  ]
+}

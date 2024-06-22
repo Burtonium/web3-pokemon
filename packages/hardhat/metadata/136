@@ -1,0 +1,19 @@
+{
+  "name": "flareon",
+  "description": "Flareon (Japanese: ブースター Booster) is a Fire-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 250
+    },
+    {
+      "trait_type": "Height",
+      "value": 9
+    }
+  ]
+}

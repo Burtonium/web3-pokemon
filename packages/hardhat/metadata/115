@@ -1,0 +1,19 @@
+{
+  "name": "kangaskhan",
+  "description": "Kangaskhan (Japanese: ガルーラ Garura) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 800
+    },
+    {
+      "trait_type": "Height",
+      "value": 22
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sandshrew",
+  "description": "Sandshrew (Japanese: サンド Sand) is a Ground-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 120
+    },
+    {
+      "trait_type": "Height",
+      "value": 6
+    }
+  ]
+}

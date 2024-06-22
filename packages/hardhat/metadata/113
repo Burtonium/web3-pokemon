@@ -1,0 +1,19 @@
+{
+  "name": "chansey",
+  "description": "Chansey (Japanese: ラッキー Lucky) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 346
+    },
+    {
+      "trait_type": "Height",
+      "value": 11
+    }
+  ]
+}

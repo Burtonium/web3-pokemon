@@ -1,0 +1,19 @@
+{
+  "name": "raticate",
+  "description": "Raticate (Japanese: ラッタ Ratta) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 185
+    },
+    {
+      "trait_type": "Height",
+      "value": 7
+    }
+  ]
+}

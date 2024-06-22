@@ -1,0 +1,19 @@
+{
+  "name": "meowth",
+  "description": "Meowth (Japanese: ニャース  Nyarth) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 42
+    },
+    {
+      "trait_type": "Height",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "charmander",
+  "description": "Charmander (Japanese: ヒトカゲ Hitokage) is a Fire-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 85
+    },
+    {
+      "trait_type": "Height",
+      "value": 6
+    }
+  ]
+}

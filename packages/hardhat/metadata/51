@@ -1,0 +1,19 @@
+{
+  "name": "dugtrio",
+  "description": "Dugtrio (Japanese: ダグトリオ Dugtrio) is a Ground-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 333
+    },
+    {
+      "trait_type": "Height",
+      "value": 7
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mewtwo",
+  "description": "Mewtwo (Japanese: ミュウツー Mewtwo) is a Psychic-type Legendary Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 1220
+    },
+    {
+      "trait_type": "Height",
+      "value": 20
+    }
+  ]
+}

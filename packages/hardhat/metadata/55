@@ -1,0 +1,19 @@
+{
+  "name": "golduck",
+  "description": "Golduck (Japanese: ゴルダック Golduck) is a Water-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 766
+    },
+    {
+      "trait_type": "Height",
+      "value": 17
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "clefairy",
+  "description": "Clefairy (Japanese: ピッピ Pippi) is a Fairy-type Pokémon introduced in Generation I. Prior to Generation VI, it was a Normal-type Pokémon.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fairy"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 75
+    },
+    {
+      "trait_type": "Height",
+      "value": 6
+    }
+  ]
+}

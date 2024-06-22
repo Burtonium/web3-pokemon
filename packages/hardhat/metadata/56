@@ -1,0 +1,19 @@
+{
+  "name": "mankey",
+  "description": "Mankey (Japanese: マンキー Mankey) is a Fighting-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 280
+    },
+    {
+      "trait_type": "Height",
+      "value": 5
+    }
+  ]
+}

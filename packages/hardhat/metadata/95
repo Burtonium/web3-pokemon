@@ -1,0 +1,23 @@
+{
+  "name": "onix",
+  "description": "Onix (Japanese: イワーク Iwark) is a dual-type Rock/Ground Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ground"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 2100
+    },
+    {
+      "trait_type": "Height",
+      "value": 88
+    }
+  ]
+}

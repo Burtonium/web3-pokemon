@@ -1,0 +1,23 @@
+{
+  "name": "jynx",
+  "description": "Jynx (Japanese: ルージュラ Rougela) is a dual-type Ice/Psychic Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "ice"
+    },
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 406
+    },
+    {
+      "trait_type": "Height",
+      "value": 14
+    }
+  ]
+}

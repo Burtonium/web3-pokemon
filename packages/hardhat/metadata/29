@@ -1,0 +1,19 @@
+{
+  "name": "nidoran-f",
+  "description": "Nidoran♀ (Japanese: ニドラン♀ Nidoran♀) is a Poison-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "poison"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 70
+    },
+    {
+      "trait_type": "Height",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dragonite",
+  "description": "Dragonite (Japanese: カイリュー Kairyu) is a dual-type Dragon/Flying pseudo-legendary Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "dragon"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 2100
+    },
+    {
+      "trait_type": "Height",
+      "value": 22
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "eevee",
+  "description": "Eevee (Japanese: イーブイ Eievui) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 65
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    }
+  ]
+}

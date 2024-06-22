@@ -1,0 +1,19 @@
+{
+  "name": "dratini",
+  "description": "Dratini (Japanese: ミニリュウ Miniryu) is a Dragon-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "dragon"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 33
+    },
+    {
+      "trait_type": "Height",
+      "value": 18
+    }
+  ]
+}

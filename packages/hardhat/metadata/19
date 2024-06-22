@@ -1,0 +1,19 @@
+{
+  "name": "rattata",
+  "description": "Rattata (Japanese: コラッタ Koratta) is a Normal-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 35
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    }
+  ]
+}

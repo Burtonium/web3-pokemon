@@ -1,0 +1,23 @@
+{
+  "name": "zapdos",
+  "description": "Zapdos (Japanese: サンダー Thunder) is a dual-type Electric/Flying Legendary Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 526
+    },
+    {
+      "trait_type": "Height",
+      "value": 16
+    }
+  ]
+}

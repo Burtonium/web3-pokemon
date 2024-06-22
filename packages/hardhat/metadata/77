@@ -1,0 +1,19 @@
+{
+  "name": "ponyta",
+  "description": "Ponyta (Japanese: ポニータ Ponyta) is a Fire-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fire"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 300
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

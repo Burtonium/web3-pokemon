@@ -1,0 +1,19 @@
+{
+  "name": "hitmonchan",
+  "description": "Hitmonchan (Japanese: エビワラー Ebiwalar) is a Fighting-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "fighting"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 502
+    },
+    {
+      "trait_type": "Height",
+      "value": 14
+    }
+  ]
+}

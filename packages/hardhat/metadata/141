@@ -1,0 +1,23 @@
+{
+  "name": "kabutops",
+  "description": "Kabutops (Japanese: カブトプス Kabutops) is a dual-type Rock/Water Fossil Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 405
+    },
+    {
+      "trait_type": "Height",
+      "value": 13
+    }
+  ]
+}

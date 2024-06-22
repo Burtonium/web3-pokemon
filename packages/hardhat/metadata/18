@@ -1,0 +1,23 @@
+{
+  "name": "pidgeot",
+  "description": "Pidgeot (Japanese: ピジョット Pigeot) is a dual-type Normal/Flying Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 395
+    },
+    {
+      "trait_type": "Height",
+      "value": 15
+    }
+  ]
+}

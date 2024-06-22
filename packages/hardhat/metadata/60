@@ -1,0 +1,19 @@
+{
+  "name": "poliwag",
+  "description": "Poliwag (Japanese: ニョロモ  Nyoromo) is a Water-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 124
+    },
+    {
+      "trait_type": "Height",
+      "value": 6
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "spearow",
+  "description": "Spearow (Japanese: オニスズメ Onisuzume) is a dual-type Normal/Flying Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "normal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 20
+    },
+    {
+      "trait_type": "Height",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "omastar",
+  "description": "Omastar (Japanese: オムスター Omstar) is a dual-type Rock/Water Fossil Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "rock"
+    },
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 350
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

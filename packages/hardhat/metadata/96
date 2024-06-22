@@ -1,0 +1,19 @@
+{
+  "name": "drowzee",
+  "description": "Drowzee (Japanese: スリープ Sleepe) is a Psychic-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 324
+    },
+    {
+      "trait_type": "Height",
+      "value": 10
+    }
+  ]
+}

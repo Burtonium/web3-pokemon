@@ -1,0 +1,23 @@
+{
+  "name": "lapras",
+  "description": "Lapras (Japanese: ラプラス Laplace) is a dual-type Water/Ice Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "ice"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 2200
+    },
+    {
+      "trait_type": "Height",
+      "value": 25
+    }
+  ]
+}

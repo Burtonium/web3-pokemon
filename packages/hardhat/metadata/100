@@ -1,0 +1,19 @@
+{
+  "name": "voltorb",
+  "description": "Voltorb (Japanese: ビリリダマ Biriridama) is an Electric-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "electric"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 104
+    },
+    {
+      "trait_type": "Height",
+      "value": 5
+    }
+  ]
+}

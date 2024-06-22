@@ -1,0 +1,19 @@
+{
+  "name": "alakazam",
+  "description": "Alakazam (Japanese: フーディン Foodin) is a Psychic-type Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "psychic"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 480
+    },
+    {
+      "trait_type": "Height",
+      "value": 15
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "gyarados",
+  "description": "Gyarados (Japanese: ギャラドス Gyarados) is a dual-type Water/Flying Pokémon introduced in Generation I.\n",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "water"
+    },
+    {
+      "trait_type": "Type",
+      "value": "flying"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 2350
+    },
+    {
+      "trait_type": "Height",
+      "value": 65
+    }
+  ]
+}
