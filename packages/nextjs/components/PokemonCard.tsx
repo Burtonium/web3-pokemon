@@ -72,14 +72,17 @@ const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
           <Image width={280} height={200} src={metadata.image} alt="Shoes" />
         </figure>
         <div className="card-body justify-center">
-          <h2 className="card-title capitalize text-3xl text-light">{metadata.name}</h2>
-          <div className="flex gap-2">
+          <h2 className="card-title capitalize text-3xl text-light justify-center">{metadata.name}</h2>
+          <div className="flex gap-2 justify-center">
             {metadata.types.map(type => (
               <span key={type} className={`badge border-none text-white ${typeColors[type]}`}>
                 {type}
               </span>
             ))}
           </div>
+          <p className="text-light font-semibold text-center">
+            Weight: {metadata.weight}kg | Height: {metadata.height}m
+          </p>
           <div className="card-actions mt-4 justify-center">
             <button onClick={() => mintNFT.write(id)} disabled={disabled} className="btn btn-primary">
               {mintNFT.isPending ? "Collecting" : "Collect"}
