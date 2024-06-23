@@ -1,16 +1,20 @@
-"use client";
-
+import { Suspense } from "react";
 import type { NextPage } from "next";
-import { useAccount } from "wagmi";
-import PokemonNFT from "~~/components/PokemonNFT";
+import PokemonNFTs from "~~/components/PokemonNFTs";
+import SearchBar from "~~/components/SearchBar";
 
-const Home: NextPage = () => {
-  const { address } = useAccount();
-
+const Home: NextPage<{ searchParams: { q?: string } }> = ({ searchParams }) => {
   return (
     <>
-      <div className="flex items-center flex-col flex-grow pt-10">
-        <div className="px-5">{address ? <PokemonNFT /> : <p>Please connect your wallet.</p>}</div>
+      <div className="flex flex-col items-center flex-grow pt-20">
+        <div className="container lg:px-10 md:px-6 px-4">
+          <SearchBar />
+          <div className="my-10">
+            <Suspense fallback="Loading collection...">
+              <PokemonNFTs filter={searchParams.q} />
+            </Suspense>
+          </div>
+        </div>
       </div>
     </>
   );

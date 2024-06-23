@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { z } from "zod";
 
-// Define a schema for the "Color" trait
 const typeTraitSchema = z.object({
   trait_type: z.literal("Type"),
   value: z.string(),
@@ -21,10 +20,8 @@ export type TypeTraitSchema = z.infer<typeof typeTraitSchema>;
 export type WeightTraitSchema = z.infer<typeof weightTraitSchema>;
 export type HeightTraitSchema = z.infer<typeof heightTraitSchema>;
 
-// Define a schema for the NFT metadata
 const nftMetadataSchema = z
   .object({
-    id: z.number().int(),
     name: z.string(),
     description: z.string(),
     image: z.string(),
@@ -72,8 +69,8 @@ const nftMetadataSchema = z
 
 export type NFTMetadata = z.infer<typeof nftMetadataSchema>;
 
-const parseMetadata = (json: unknown) => {
-  return nftMetadataSchema.parse(json);
+const parseMetadata = (json: string) => {
+  return nftMetadataSchema.parse(JSON.parse(json));
 };
 
 export default parseMetadata;

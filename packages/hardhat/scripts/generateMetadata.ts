@@ -19,8 +19,8 @@ function getDescriptionFromResponse(responseData: string): string {
 
 async function main() {
   try {
-    fs.mkdirSync("metadata", { recursive: true });
-    const files = fs.readdirSync("metadata");
+    fs.mkdirSync("../nextjs/nft/metadata", { recursive: true });
+    const files = fs.readdirSync("../nextjs/nft/metadata");
     let lastWrittenIndex = 0;
     for (const file of files) {
       const index = parseInt(file);
@@ -59,7 +59,7 @@ async function main() {
         ],
       };
 
-      const fileName = `metadata/${pokemonData.data.id}`;
+      const fileName = `../nextjs/nft/metadata/${pokemonData.data.id}`;
       fs.writeFileSync(fileName, JSON.stringify(metadata, null, 2));
       console.log(`Generated metadata file for ${pokemonData.data.name}`);
     }

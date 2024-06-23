@@ -1,4 +1,3 @@
-import "@rainbow-me/rainbowkit/styles.css";
 import { Metadata } from "next";
 import "react-tooltip/dist/react-tooltip.css";
 import { AppWithProviders } from "~~/components/AppWithProviders";
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
 const EthApp = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
-      <body>
+      <body className="bg-dark">
         <AppWithProviders>{children}</AppWithProviders>
       </body>
     </html>

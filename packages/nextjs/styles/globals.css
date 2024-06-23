@@ -2,6 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 :root,
 [data-theme] {
   background: oklch(var(--b2));
@@ -9,6 +11,9 @@
 
 body {
   min-height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 h1,
@@ -23,8 +28,24 @@ p {
   margin: 1rem 0;
 }
 
+.input {
+  @apply block;
+  @apply w-full;
+  @apply px-4;
+  @apply py-2;
+  @apply rounded-md;
+  @apply border-2;
+  @apply font-semibold;
+  @apply text-light;
+  @apply bg-dark-2;
+  @apply border-dark-4;
+}
+
 .btn {
   @apply shadow-md;
+  @apply rounded-lg;
+  @apply hover:bg-primary-light hover:text-primary-dark;
+  @apply disabled:bg-none disabled:text-dark-4 disabled:border-2 disabled:border-dark-4;
 }
 
 .btn.btn-ghost {
