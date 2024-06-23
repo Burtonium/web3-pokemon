@@ -68,7 +68,7 @@ const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
             <span className="badge bg-primary">Owned: {owned}</span>
           </div>
         )}
-        <figure className="bg-dark-2/75">
+        <figure className="bg-dark-2/75 rounded-2xl">
           <Image width={280} height={200} src={metadata.image} alt="Shoes" />
         </figure>
         <div className="card-body justify-center">
