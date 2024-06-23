@@ -3970,6 +3970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/lodash@npm:^4":
+  version: 4.17.5
+  resolution: "@types/lodash@npm:4.17.5"
+  checksum: 3c9bb15772509f0ecb40428531863dbc3f064f2bf34bbccc2ce2b2923c69fb0868aec7e357b1d97fd0d7f7e435a014ea5c1adef8a64715529887179c97a5a823
+  languageName: node
+  linkType: hard
+
 "@types/lru-cache@npm:^5.1.0":
   version: 5.1.1
   resolution: "@types/lru-cache@npm:5.1.1"
@@ -5073,6 +5080,7 @@ __metadata:
     "@helia/unixfs": ^3.0.6
     "@tanstack/react-query": ^5.45.1
     "@trivago/prettier-plugin-sort-imports": ^4.1.1
+    "@types/lodash": ^4
     "@types/node": ^17.0.35
     "@types/nprogress": ^0
     "@types/react": ^18.0.9
@@ -5085,6 +5093,7 @@ __metadata:
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.2.1
     helia: ^4.2.4
+    lodash: ^4.17.21
     next: ^14.2.4
     nprogress: ^0.2.0
     postcss: ^8.4.16

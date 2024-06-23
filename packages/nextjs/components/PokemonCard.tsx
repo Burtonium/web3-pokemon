@@ -1,7 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useMemo } from "react";
 import Image from "next/image";
+import { useAccount } from "wagmi";
+import useBalances from "~~/hooks/useBalances";
+import useMintNFT from "~~/hooks/useMintNFT";
 import { NFTMetadata } from "~~/utils/parseNFTMetadata";
 
 type Props = {
@@ -32,8 +35,19 @@ const typeColors: Record<string, string> = {
 };
 
 const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
+  const balances = useBalances();
+  const { isConnected } = useAccount();
   const dialogId = `pokemon-modal-${id}`;
   const dialogRef = React.useRef<HTMLDialogElement>(null);
+  const mintNFT = useMintNFT();
+
+  const [disabled, setDisabled] = React.useState(false);
+
+  useEffect(() => {
+    setDisabled(mintNFT.isPending || !isConnected);
+  }, [isConnected, mintNFT.isPending]);
+
+  const owned = useMemo(() => balances?.at(id) ?? 0, [balances, id]);
 
   return (
     <>
@@ -48,7 +62,12 @@ const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
           </div>
         </div>
       </dialog>
-      <div className="card bg-dark-3 shadow-xl">
+      <div className="card bg-dark-3 shadow-xl relative">
+        {owned > 0 && (
+          <div className="absolute top-2 right-2">
+            <span className="badge bg-primary">Owned: {owned}</span>
+          </div>
+        )}
         <figure className="bg-dark-2/75">
           <Image width={280} height={200} src={metadata.image} alt="Shoes" />
         </figure>
@@ -62,7 +81,9 @@ const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
             ))}
           </div>
           <div className="card-actions mt-4 justify-center">
-            <button className="btn btn-primary">Collect</button>
+            <button onClick={() => mintNFT.write(id)} disabled={disabled} className="btn btn-primary">
+              {mintNFT.isPending ? "Collecting" : "Collect"}
+            </button>
           </div>
         </div>
         <div className="card-footer flex pb-6 justify-center">

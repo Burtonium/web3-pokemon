@@ -1,28 +1,6 @@
-// import { useMemo } from "react";
-// import { useAccount } from "wagmi";
+import { useContext } from "react";
+import { BalancesContext } from "../providers/BalancesProvider";
 
-// const TOTAL_TOKENS = 151;
-// const TOKEN_IDS = Array.from({ length: TOTAL_TOKENS }, (_, index) => index);
+const useBalances = () => useContext(BalancesContext).balances;
 
-// const useBalances = () => {
-//   const account = useAccount();
-//   const addresses = useMemo(() => Array.from({ length: TOKEN_IDS.length }, () => account.address), [account.address]);
-
-//   const ownedTokens = useMemo<[number, number][] | undefined>(
-//     () =>
-//       balances.data &&
-//       balances.data.reduce(
-//         (acc: [number, number][], balance: bigint, tokenId: number) =>
-//           balance > 0 ? [...acc, [tokenId, Number(balance)]] : acc,
-//         [] as [number, number][],
-//       ),
-//     [balances.data],
-//   );
-
-//   return {
-//     ...balances,
-//     data: ownedTokens,
-//   };
-// };
-
-// export default useBalances;
+export default useBalances;

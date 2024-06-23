@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import icon from "~~/assets/icon.png";
 
-/**
- * Site header
- */
+const ConnectWallet = dynamic(() => import("./ConnectWallet"), { ssr: false });
+
 export const Header = () => {
   return (
     <div className="sticky bg-dark lg:static top-0 navbar h-20 flex-shrink-0 justify-between z-20  shadow-secondary px-0 sm:px-2 border-b-4 border-b-dark-3">
@@ -20,7 +20,7 @@ export const Header = () => {
         </Link>
       </div>
       <div className="absolute h-full right-0 pr-3">
-        <button className="btn btn-primary">Connect</button>
+        <ConnectWallet />
       </div>
     </div>
   );
