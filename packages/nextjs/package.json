@@ -16,7 +16,6 @@
   "dependencies": {
     "@helia/unixfs": "^3.0.6",
     "@tanstack/react-query": "^5.45.1",
-    "@web3-pokemon/hardhat": "workspace:^",
     "daisyui": "^4.4.19",
     "helia": "^4.2.4",
     "lodash": "^4.17.21",

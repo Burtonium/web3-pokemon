@@ -5030,7 +5030,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3-pokemon/hardhat@workspace:^, @web3-pokemon/hardhat@workspace:packages/hardhat":
+"@web3-pokemon/hardhat@workspace:packages/hardhat":
   version: 0.0.0-use.local
   resolution: "@web3-pokemon/hardhat@workspace:packages/hardhat"
   dependencies:
@@ -5085,7 +5085,6 @@ __metadata:
     "@types/nprogress": ^0
     "@types/react": ^18.0.9
     "@typescript-eslint/eslint-plugin": ^5.39.0
-    "@web3-pokemon/hardhat": "workspace:^"
     autoprefixer: ^10.4.12
     daisyui: ^4.4.19
     eslint: ^8.15.0

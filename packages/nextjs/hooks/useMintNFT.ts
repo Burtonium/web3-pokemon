@@ -1,5 +1,5 @@
-import PokemonNFT from "@web3-pokemon/hardhat/deployments/sepolia/PokemonNFT.json";
 import { useWriteContract } from "wagmi";
+import PokemonNFT from "~~/nft/PokemonNFT.json";
 
 const useMintNFT = () => {
   const { writeContract: write, isError, isSuccess, isPending } = useWriteContract();

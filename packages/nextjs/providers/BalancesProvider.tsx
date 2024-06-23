@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, createContext, useMemo } from "react";
-import { abi, address as contractAddress } from "@web3-pokemon/hardhat/deployments/sepolia/PokemonNFT.json";
 import { useAccount, useReadContract } from "wagmi";
+import { abi, address as contractAddress } from "~~/nft/PokemonNFT.json";
 
 const tokenIds = Array.from({ length: 151 }, (_, i) => i);
 
@@ -28,5 +28,3 @@ export const BalancesProvider: React.FC<PropsWithChildren> = ({ children }) => {
 
   return <BalancesContext.Provider value={{ balances }}>{children}</BalancesContext.Provider>;
 };
-
-export const useBalances = () => React.useContext(BalancesContext).balances;
