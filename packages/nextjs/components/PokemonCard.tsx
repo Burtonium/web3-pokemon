@@ -35,13 +35,12 @@ const typeColors: Record<string, string> = {
 };
 
 const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
+  const [disabled, setDisabled] = React.useState(false);
   const balances = useBalances();
   const { isConnected } = useAccount();
   const dialogId = `pokemon-modal-${id}`;
   const dialogRef = React.useRef<HTMLDialogElement>(null);
   const mintNFT = useMintNFT();
-
-  const [disabled, setDisabled] = React.useState(false);
 
   // useEffect only happens when the component mounts, which we need here
   useEffect(() => {

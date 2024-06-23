@@ -5,9 +5,8 @@ import WalletOptions from "./WalletOptions";
 import { useAccount } from "wagmi";
 
 const ConnectWallet = () => {
-  const { isConnected } = useAccount();
-  if (isConnected) return <Disconnect />;
-  return <WalletOptions />;
+  const { isConnected, address } = useAccount();
+  return isConnected && !!address ? <Disconnect /> : <WalletOptions />;
 };
 
 export default ConnectWallet;
