@@ -43,6 +43,7 @@ const PokemonCard: React.FC<Props> = ({ metadata, id }) => {
 
   const [disabled, setDisabled] = React.useState(false);
 
+  // useEffect only happens when the component mounts, which we need here
   useEffect(() => {
     setDisabled(mintNFT.isPending || !isConnected);
   }, [isConnected, mintNFT.isPending]);
