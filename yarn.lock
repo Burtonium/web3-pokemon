@@ -10506,15 +10506,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^8.0.1":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
-  bin:
-    husky: lib/bin.js
-  checksum: 837bc7e4413e58c1f2946d38fb050f5d7324c6f16b0fd66411ffce5703b294bd21429e8ba58711cd331951ee86ed529c5be4f76805959ff668a337dbfa82a1b0
-  languageName: node
-  linkType: hard
-
 "i18next-browser-languagedetector@npm:7.1.0":
   version: 7.1.0
   resolution: "i18next-browser-languagedetector@npm:7.1.0"
@@ -17741,7 +17732,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web3-pokemon@workspace:."
   dependencies:
-    husky: ^8.0.1
     lint-staged: ^13.0.3
     next: ^14.0.4
     vercel: ^32.4.1

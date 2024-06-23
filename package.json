@@ -29,14 +29,12 @@
     "next:format": "yarn workspace @web3-pokemon/nextjs format",
     "next:check-types": "yarn workspace @web3-pokemon/nextjs check-types",
     "next:build": "yarn workspace @web3-pokemon/nextjs build",
-    "postinstall": "husky install",
     "precommit": "lint-staged",
     "vercel": "yarn workspace @web3-pokemon/nextjs vercel",
     "vercel:yolo": "yarn workspace @web3-pokemon/nextjs vercel:yolo"
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
-    "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "next": "^14.0.4",
     "vercel": "^32.4.1"
